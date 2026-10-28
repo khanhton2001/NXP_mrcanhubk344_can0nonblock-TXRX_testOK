@@ -1,0 +1,13 @@
+-c
+-I../RTD/include
+-I"C:/Users/Admin/workspaceS32DS.3.6.3/MRCANHUBK344_2012026/board"
+-x assembler-with-cpp
+-ggdb3
+-mcpu=cortex-m7
+-mthumb
+-mlittle-endian
+-mfloat-abi=hard
+-mfpu=fpv5-sp-d16
+-specs=nano.specs
+-specs=nosys.specs
+--sysroot="C:/nxp/S32DS.3.6.3/S32DS/build_tools/gcc_v10.2/gcc-10.2-arm32-eabi/arm-none-eabi/lib"
